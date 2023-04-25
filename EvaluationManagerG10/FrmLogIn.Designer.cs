@@ -77,6 +77,7 @@
             this.btnLogIn.TabIndex = 4;
             this.btnLogIn.Text = "Prijava";
             this.btnLogIn.UseVisualStyleBackColor = true;
+            this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // Prijava
             // 

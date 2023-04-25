@@ -12,6 +12,7 @@ namespace EvaluationManagerG10
 {
     public partial class Prijava : Form
     {
+
         public Prijava()
         {
             InitializeComponent();
@@ -23,6 +24,12 @@ namespace EvaluationManagerG10
 
         private void label1_Click(object sender, EventArgs e) {
 
+        }
+
+        private void btnLogIn_Click(object sender, EventArgs e) {
+            if(textUsername.Text == "") {
+                MessageBox.Show("Korisničko ime nije uneseno", "Problem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
