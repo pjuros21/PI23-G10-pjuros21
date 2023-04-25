@@ -1,0 +1,10 @@
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\bin\Debug\EvaluationManagerG10.exe.config
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\bin\Debug\EvaluationManagerG10.exe
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\bin\Debug\EvaluationManagerG10.pdb
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.csproj.AssemblyReference.cache
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.csproj.SuggestedBindingRedirects.cache
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.Properties.Resources.resources
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.csproj.GenerateResource.cache
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.csproj.CoreCompileInputs.cache
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.exe
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.pdb
