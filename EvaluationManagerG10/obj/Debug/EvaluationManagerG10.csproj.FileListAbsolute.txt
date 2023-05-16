@@ -9,3 +9,4 @@ C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\Evalu
 C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.exe
 C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.pdb
 C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.Prijava.resources
+C:\Users\foi\source\repos\PI23-G10-pjuros21\EvaluationManagerG10\obj\Debug\EvaluationManagerG10.FrmStudent.resources

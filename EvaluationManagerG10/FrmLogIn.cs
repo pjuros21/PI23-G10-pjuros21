@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EvaluationManagerG10.Models;
+using EvaluationManagerG10.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,7 @@ namespace EvaluationManagerG10
 {
     public partial class Prijava : Form
     {
+        public static Teacher LoggedTeacher { get; set; }
 
         public Prijava()
         {
@@ -29,6 +32,18 @@ namespace EvaluationManagerG10
         private void btnLogIn_Click(object sender, EventArgs e) {
             if(textUsername.Text == "") {
                 MessageBox.Show("Korisničko ime nije uneseno", "Problem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            } else if(txtPassword.Text == "") {
+                MessageBox.Show("Lozinka nije unesena!"), "Problem", MessageBoxButtons.OK,
+            }
+            
+            else {
+                LoggedTeacher = TeacherRepository.GetTeacher(txtUsername.Text);
+                if (LoggedTeacher != null && LoggedTeacher.CheckPassword == (txtPassword.Text) {
+                    FrmStudent frmStudents = new FrmStudent();
+                    Hide();
+                    frmStudents.ShowDialog();
+                    Close();
+                }
             }
         }
     }

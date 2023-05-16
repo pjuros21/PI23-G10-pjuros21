@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EvaluationManagerG10
+namespace Evaluation_Manager
 {
     internal static class Program
     {
@@ -16,8 +16,7 @@ namespace EvaluationManagerG10
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //DBLayer.DB.SetConfiguratoin
-            Application.Run(new Prijava());
+            Application.Run(new FrmLogin());
         }
     }
 }
