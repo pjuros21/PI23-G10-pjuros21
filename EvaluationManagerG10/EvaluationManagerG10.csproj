@@ -63,8 +63,15 @@
       <DependentUpon>FrmStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Evaluation.cs" />
+    <Compile Include="Models\FrmFinalDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\FrmFinalDesign.Designer.cs">
+      <DependentUpon>FrmFinalDesign.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\StudentReportView.cs" />
     <Compile Include="Models\Teacher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStudent.resx">
       <DependentUpon>FrmStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models\FrmFinalDesign.resx">
+      <DependentUpon>FrmFinalDesign.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

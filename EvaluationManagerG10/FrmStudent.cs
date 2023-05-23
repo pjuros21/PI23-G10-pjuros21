@@ -1,4 +1,5 @@
-﻿using EvaluationManagerG10.Repositories;
+﻿using EvaluationManagerG10.Models;
+using EvaluationManagerG10.Repositories;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,6 +38,14 @@ namespace EvaluationManagerG10 {
                 dgvStudents.Columns["LastName"].DisplayIndex = 2;
                 dgvStudents.Columns["Grade"].DisplayIndex = 3;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+
+        }
+
+        private void dgvStudent_CellContentClick(object sender, DataGridViewCellEventArgs e) {
+            
         }
     }
 }
